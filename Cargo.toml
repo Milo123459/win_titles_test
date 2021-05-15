@@ -1,0 +1,11 @@
+[package]
+name = "win_titles_test"
+version = "0.1.0"
+authors = ["Milo <50248166+Milo123459@users.noreply.github.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+window_titles = { git = "https://github.com/HiruNya/window_titles", branch = "process-support", version = "0.1.0" }
+colored = "*"
